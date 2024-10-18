@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    
+    <style>
+
+      
+        header {
+          background-color: #003473; 
+          padding: 20px;          
+          text-align: center;     
+        }
+        
+        
+        header h1 {
+          color: #fff;         
+          font-family: 'Arial', sans-serif; 
+          font-size: 36px;        
+          font-weight: bold;     
+          margin: 0;             
+          letter-spacing: 2px;    
+        }
+     
+       
+      </style>
+    <style>
+        nav {
+          background-color: #333; 
+          padding: 10px;         
+        }
+        nav ul {
+          list-style-type: none;  
+          margin: 0;
+          padding: 0;
+          display: flex;         
+        }
+        nav ul li {
+          margin-right: 20px;    
+        }
+        nav ul li a {
+          color: white;          
+          text-decoration: none;  
+          padding: 10px 20px;     
+          display: block;        
+        }
+       
+      </style>
+<style>
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .form-container label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #555;
+  }
+
+  .form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .form-container button {
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .form-container button:hover {
+    background-color: #444;
+  }
+</style>
+</head>
+
+<body>
+<header>
+    <h1>Bugatti.com</h1> 
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">about buggati</a></li>
+          <li><a href="first.html">first buggati</a></li>
+          <li><a href="latest.html">latest model</a></li>
+        </ul>
+      </nav>
+    <main>
+        <div class="form-container">
+            <h2>Join the Bugatti Fan Club</h2>
+            
+        <form action="thanks.html" method="get">
+             
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        
+            
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+        
+            
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+         
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        
+              <label for="country">Country:</label>
+              <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="pk">pakistan</option>
+                <option value="fr">France</option>
+                <option value="de">Germany</option>
+                <option value="uk">United Kingdom</option>
+                <option value="other">Other</option>
+              </select>
+        
+              
+              <button type="submit">Join Now</button>
+            </form> 
+          </div>
+    </main>
+    
+    
+</header>
+    
+</body>
+</html>
